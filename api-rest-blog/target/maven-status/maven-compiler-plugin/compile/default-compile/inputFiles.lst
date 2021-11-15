@@ -1,0 +1,17 @@
+D:\Java\api-blog\api-rest-blog\target\clover\src-instrumented\com\api\blog\controllers\HomeController.java
+D:\Java\api-blog\api-rest-blog\target\clover\src-instrumented\com\api\blog\utils\HashPassword.java
+D:\Java\api-blog\api-rest-blog\target\clover\src-instrumented\com\api\blog\repositories\PostsJpaRepository.java
+D:\Java\api-blog\api-rest-blog\target\clover\src-instrumented\com\api\blog\dto\CreatePostDTO.java
+D:\Java\api-blog\api-rest-blog\target\clover\src-instrumented\com\api\blog\services\PostUserMapService.java
+D:\Java\api-blog\api-rest-blog\target\clover\src-instrumented\com\api\blog\services\UserPostsMapService.java
+D:\Java\api-blog\api-rest-blog\target\clover\src-instrumented\com\api\blog\repositories\UserJpaRepository.java
+D:\Java\api-blog\api-rest-blog\target\clover\src-instrumented\com\api\blog\ApiBlogApplication.java
+D:\Java\api-blog\api-rest-blog\target\clover\src-instrumented\com\api\blog\SwaggerConfig.java
+D:\Java\api-blog\api-rest-blog\target\clover\src-instrumented\com\api\blog\dto\PostUserDTO.java
+D:\Java\api-blog\api-rest-blog\target\clover\src-instrumented\com\api\blog\models\Posts.java
+D:\Java\api-blog\api-rest-blog\target\clover\src-instrumented\com\api\blog\controllers\UserController.java
+D:\Java\api-blog\api-rest-blog\target\clover\src-instrumented\com\api\blog\config\ModelMapperConfig.java
+D:\Java\api-blog\api-rest-blog\target\clover\src-instrumented\com\api\blog\dto\UserPostsDTO.java
+D:\Java\api-blog\api-rest-blog\target\clover\src-instrumented\com\api\blog\controllers\PostsController.java
+D:\Java\api-blog\api-rest-blog\target\clover\src-instrumented\com\api\blog\models\User.java
+D:\Java\api-blog\api-rest-blog\target\clover\src-instrumented\com\api\blog\services\CreatePostMapService.java

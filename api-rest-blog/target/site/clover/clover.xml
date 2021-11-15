@@ -1,0 +1,444 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1635941560483" clover="4.4.1">
+   <project name="api-rest-blog 1.0-SNAPSHOT" timestamp="1635941557160">
+      <metrics coveredelements="141" complexity="108" loc="993" methods="98" classes="17" statements="151" packages="8" coveredconditionals="8" coveredmethods="57" elements="269" ncloc="746" files="17" conditionals="20" coveredstatements="76"/>
+      <package name="com.api.blog.config">
+         <metrics coveredelements="3" complexity="1" loc="14" methods="1" classes="1" statements="2" coveredconditionals="0" coveredmethods="1" elements="3" ncloc="12" files="1" conditionals="0" coveredstatements="2"/>
+         <file path="D:\Java\api-blog\api-rest-blog\src\main\java\com\api\blog\config\ModelMapperConfig.java" name="ModelMapperConfig.java">
+            <metrics coveredelements="3" coveredconditionals="0" complexity="1" loc="14" coveredmethods="1" methods="1" elements="3" classes="1" ncloc="12" statements="2" conditionals="0" coveredstatements="2"/>
+            <class name="ModelMapperConfig">
+               <metrics coveredelements="3" coveredconditionals="0" complexity="1" coveredmethods="1" methods="1" elements="3" statements="2" conditionals="0" coveredstatements="2"/>
+            </class>
+            <line complexity="1" visibility="public" signature="modelMapper() : ModelMapper" num="9" count="2" type="method"/>
+            <line num="11" count="2" type="stmt"/>
+            <line num="12" count="2" type="stmt"/>
+         </file>
+      </package>
+      <package name="com.api.blog.services">
+         <metrics coveredelements="7" complexity="9" loc="128" methods="9" classes="3" statements="24" coveredconditionals="0" coveredmethods="2" elements="33" ncloc="104" files="3" conditionals="0" coveredstatements="5"/>
+         <file path="D:\Java\api-blog\api-rest-blog\src\main\java\com\api\blog\services\CreatePostMapService.java" name="CreatePostMapService.java">
+            <metrics coveredelements="7" coveredconditionals="0" complexity="3" loc="41" coveredmethods="2" methods="3" elements="10" classes="1" ncloc="30" statements="7" conditionals="0" coveredstatements="5"/>
+            <class name="CreatePostMapService">
+               <metrics coveredelements="7" coveredconditionals="0" complexity="3" coveredmethods="2" methods="3" elements="10" statements="7" conditionals="0" coveredstatements="5"/>
+            </class>
+            <line complexity="1" visibility="public" signature="createPost(CreatePostDTO) : Posts" num="22" count="1" type="method"/>
+            <line num="23" count="1" type="stmt"/>
+            <line num="24" count="1" type="stmt"/>
+            <line complexity="1" visibility="public" signature="createPost2(CreatePostDTO) : Posts" num="27" count="0" type="method"/>
+            <line num="28" count="0" type="stmt"/>
+            <line num="29" count="0" type="stmt"/>
+            <line complexity="1" visibility="private" signature="convertDtoToPost(CreatePostDTO) : Posts" num="34" count="1" type="method"/>
+            <line num="35" count="1" type="stmt"/>
+            <line num="36" count="1" type="stmt"/>
+            <line num="38" count="1" type="stmt"/>
+         </file>
+         <file path="D:\Java\api-blog\api-rest-blog\src\main\java\com\api\blog\services\PostUserMapService.java" name="PostUserMapService.java">
+            <metrics coveredelements="0" coveredconditionals="0" complexity="2" loc="33" coveredmethods="0" methods="2" elements="8" classes="1" ncloc="27" statements="6" conditionals="0" coveredstatements="0"/>
+            <class name="PostUserMapService">
+               <metrics coveredelements="0" coveredconditionals="0" complexity="2" coveredmethods="0" methods="2" elements="8" statements="6" conditionals="0" coveredstatements="0"/>
+            </class>
+            <line complexity="1" visibility="public" signature="getPostAndUser(Integer) : PostUserDTO" num="21" count="0" type="method"/>
+            <line num="22" count="0" type="stmt"/>
+            <line num="23" count="0" type="stmt"/>
+            <line num="24" count="0" type="stmt"/>
+            <line complexity="1" visibility="private" signature="convertToPostUserDTO(Posts) : PostUserDTO" num="27" count="0" type="method"/>
+            <line num="28" count="0" type="stmt"/>
+            <line num="29" count="0" type="stmt"/>
+            <line num="31" count="0" type="stmt"/>
+         </file>
+         <file path="D:\Java\api-blog\api-rest-blog\src\main\java\com\api\blog\services\UserPostsMapService.java" name="UserPostsMapService.java">
+            <metrics coveredelements="0" coveredconditionals="0" complexity="4" loc="54" coveredmethods="0" methods="4" elements="15" classes="1" ncloc="47" statements="11" conditionals="0" coveredstatements="0"/>
+            <class name="UserPostsMapService">
+               <metrics coveredelements="0" coveredconditionals="0" complexity="4" coveredmethods="0" methods="4" elements="15" statements="11" conditionals="0" coveredstatements="0"/>
+            </class>
+            <line complexity="1" visibility="public" signature="getUsersPosts(Integer) : List&lt;UserPostsDTO&gt;" num="23" count="0" type="method"/>
+            <line num="24" count="0" type="stmt"/>
+            <line complexity="1" visibility="public" signature="getAllUsersPosts() : List&lt;UserPostsDTO&gt;" num="30" count="0" type="method"/>
+            <line num="31" count="0" type="stmt"/>
+            <line complexity="1" visibility="private" signature="convertToUserPostsDTO(User) : UserPostsDTO" num="38" count="0" type="method"/>
+            <line num="39" count="0" type="stmt"/>
+            <line num="40" count="0" type="stmt"/>
+            <line num="41" count="0" type="stmt"/>
+            <line num="42" count="0" type="stmt"/>
+            <line num="43" count="0" type="stmt"/>
+            <line num="44" count="0" type="stmt"/>
+            <line complexity="1" visibility="private" signature="convertToUserPostsDTOWithMapper(User) : UserPostsDTO" num="47" count="0" type="method"/>
+            <line num="48" count="0" type="stmt"/>
+            <line num="50" count="0" type="stmt"/>
+            <line num="52" count="0" type="stmt"/>
+         </file>
+      </package>
+      <package name="com.api.blog.repositories">
+         <metrics coveredelements="0" complexity="0" loc="33" methods="0" classes="2" statements="0" coveredconditionals="0" coveredmethods="0" elements="0" ncloc="21" files="2" conditionals="0" coveredstatements="0"/>
+         <file path="D:\Java\api-blog\api-rest-blog\src\main\java\com\api\blog\repositories\PostsJpaRepository.java" name="PostsJpaRepository.java">
+            <metrics coveredelements="0" coveredconditionals="0" complexity="0" loc="21" coveredmethods="0" methods="0" elements="0" classes="1" ncloc="14" statements="0" conditionals="0" coveredstatements="0"/>
+            <class name="PostsJpaRepository">
+               <metrics coveredelements="0" coveredconditionals="0" complexity="0" coveredmethods="0" methods="0" elements="0" statements="0" conditionals="0" coveredstatements="0"/>
+            </class>
+         </file>
+         <file path="D:\Java\api-blog\api-rest-blog\src\main\java\com\api\blog\repositories\UserJpaRepository.java" name="UserJpaRepository.java">
+            <metrics coveredelements="0" coveredconditionals="0" complexity="0" loc="12" coveredmethods="0" methods="0" elements="0" classes="1" ncloc="7" statements="0" conditionals="0" coveredstatements="0"/>
+            <class name="UserJpaRepository">
+               <metrics coveredelements="0" coveredconditionals="0" complexity="0" coveredmethods="0" methods="0" elements="0" statements="0" conditionals="0" coveredstatements="0"/>
+            </class>
+         </file>
+      </package>
+      <package name="com.api.blog.utils">
+         <metrics coveredelements="0" complexity="1" loc="11" methods="1" classes="1" statements="1" coveredconditionals="0" coveredmethods="0" elements="2" ncloc="8" files="1" conditionals="0" coveredstatements="0"/>
+         <file path="D:\Java\api-blog\api-rest-blog\src\main\java\com\api\blog\utils\HashPassword.java" name="HashPassword.java">
+            <metrics coveredelements="0" coveredconditionals="0" complexity="1" loc="11" coveredmethods="0" methods="1" elements="2" classes="1" ncloc="8" statements="1" conditionals="0" coveredstatements="0"/>
+            <class name="HashPassword">
+               <metrics coveredelements="0" coveredconditionals="0" complexity="1" coveredmethods="0" methods="1" elements="2" statements="1" conditionals="0" coveredstatements="0"/>
+            </class>
+            <line complexity="1" visibility="public" signature="HashPassword(String)" num="8" count="0" type="method"/>
+            <line num="9" count="0" type="stmt"/>
+         </file>
+      </package>
+      <package name="com.api.blog.controllers">
+         <metrics coveredelements="10" complexity="17" loc="213" methods="11" classes="3" statements="35" coveredconditionals="2" coveredmethods="3" elements="58" ncloc="165" files="3" conditionals="12" coveredstatements="5"/>
+         <file path="D:\Java\api-blog\api-rest-blog\src\main\java\com\api\blog\controllers\HomeController.java" name="HomeController.java">
+            <metrics coveredelements="0" coveredconditionals="0" complexity="1" loc="23" coveredmethods="0" methods="1" elements="4" classes="1" ncloc="19" statements="3" conditionals="0" coveredstatements="0"/>
+            <class name="HomeController">
+               <metrics coveredelements="0" coveredconditionals="0" complexity="1" coveredmethods="0" methods="1" elements="4" statements="3" conditionals="0" coveredstatements="0"/>
+            </class>
+            <line complexity="1" visibility="public" signature="getStatus() : Map" num="16" count="0" type="method"/>
+            <line num="19" count="0" type="stmt"/>
+            <line num="20" count="0" type="stmt"/>
+            <line num="21" count="0" type="stmt"/>
+         </file>
+         <file path="D:\Java\api-blog\api-rest-blog\src\main\java\com\api\blog\controllers\PostsController.java" name="PostsController.java">
+            <metrics coveredelements="4" coveredconditionals="1" complexity="13" loc="134" coveredmethods="1" methods="8" elements="46" classes="1" ncloc="109" statements="28" conditionals="10" coveredstatements="2"/>
+            <class name="PostsController">
+               <metrics coveredelements="4" coveredconditionals="1" complexity="13" coveredmethods="1" methods="8" elements="46" statements="28" conditionals="10" coveredstatements="2"/>
+            </class>
+            <line complexity="3" visibility="public" signature="getPosts(String) : List&lt;Posts&gt;" num="44" count="2" type="method"/>
+            <line num="46" count="2" type="stmt"/>
+            <line falsecount="0" truecount="2" num="46" type="cond"/>
+            <line num="47" count="2" type="stmt"/>
+            <line num="49" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="49" type="cond"/>
+            <line num="50" count="0" type="stmt"/>
+            <line num="53" count="0" type="stmt"/>
+            <line complexity="1" visibility="public" signature="getPostsPage(Integer,Integer) : Page&lt;Posts&gt;" num="57" count="0" type="method"/>
+            <line num="61" count="0" type="stmt"/>
+            <line complexity="1" visibility="public" signature="getPost(Integer) : Posts" num="64" count="0" type="method"/>
+            <line num="69" count="0" type="stmt"/>
+            <line complexity="1" visibility="public" signature="getUserPosts(Integer) : List&lt;?&gt;" num="73" count="0" type="method"/>
+            <line num="76" count="0" type="stmt"/>
+            <line complexity="1" visibility="public" signature="getUserAndPostDto(Integer) : PostUserDTO" num="80" count="0" type="method"/>
+            <line num="83" count="0" type="stmt"/>
+            <line complexity="2" visibility="public" signature="createPost(CreatePostDTO) : ResponseEntity&lt;Posts&gt;" num="87" count="0" type="method"/>
+            <line num="91" count="0" type="stmt"/>
+            <line num="93" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="93" type="cond"/>
+            <line num="94" count="0" type="stmt"/>
+            <line num="95" count="0" type="stmt"/>
+            <line num="98" count="0" type="stmt"/>
+            <line complexity="2" visibility="public" signature="createPostV13(CreatePostDTO) : ResponseEntity&lt;Posts&gt;" num="102" count="0" type="method"/>
+            <line num="105" count="0" type="stmt"/>
+            <line num="107" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="107" type="cond"/>
+            <line num="108" count="0" type="stmt"/>
+            <line num="109" count="0" type="stmt"/>
+            <line num="112" count="0" type="stmt"/>
+            <line complexity="2" visibility="public" signature="updatePost(Posts) : ResponseEntity&lt;String&gt;" num="116" count="0" type="method"/>
+            <line num="118" count="0" type="stmt"/>
+            <line num="119" count="0" type="stmt"/>
+            <line num="121" count="0" type="stmt"/>
+            <line falsecount="0" truecount="0" num="121" type="cond"/>
+            <line num="122" count="0" type="stmt"/>
+            <line num="123" count="0" type="stmt"/>
+            <line num="124" count="0" type="stmt"/>
+            <line num="125" count="0" type="stmt"/>
+            <line num="128" count="0" type="stmt"/>
+            <line num="131" count="0" type="stmt"/>
+         </file>
+         <file path="D:\Java\api-blog\api-rest-blog\src\main\java\com\api\blog\controllers\UserController.java" name="UserController.java">
+            <metrics coveredelements="6" coveredconditionals="1" complexity="3" loc="56" coveredmethods="2" methods="2" elements="8" classes="1" ncloc="37" statements="4" conditionals="2" coveredstatements="3"/>
+            <class name="UserController">
+               <metrics coveredelements="6" coveredconditionals="1" complexity="3" coveredmethods="2" methods="2" elements="8" statements="4" conditionals="2" coveredstatements="3"/>
+            </class>
+            <line complexity="2" visibility="public" signature="getUsers(String) : List&lt;User&gt;" num="25" count="1" type="method"/>
+            <line num="33" count="1" type="stmt"/>
+            <line falsecount="0" truecount="1" num="33" type="cond"/>
+            <line num="34" count="1" type="stmt"/>
+            <line num="37" count="0" type="stmt"/>
+            <line complexity="1" visibility="public" signature="getOneUser(Integer) : User" num="41" count="1" type="method"/>
+            <line num="43" count="1" type="stmt"/>
+         </file>
+      </package>
+      <package name="com.api.blog.dto">
+         <metrics coveredelements="14" complexity="28" loc="199" methods="28" classes="3" statements="28" coveredconditionals="0" coveredmethods="7" elements="56" ncloc="126" files="3" conditionals="0" coveredstatements="7"/>
+         <file path="D:\Java\api-blog\api-rest-blog\src\main\java\com\api\blog\dto\CreatePostDTO.java" name="CreatePostDTO.java">
+            <metrics coveredelements="14" coveredconditionals="0" complexity="8" loc="50" coveredmethods="7" methods="8" elements="16" classes="1" ncloc="36" statements="8" conditionals="0" coveredstatements="7"/>
+            <class name="CreatePostDTO">
+               <metrics coveredelements="14" coveredconditionals="0" complexity="8" coveredmethods="7" methods="8" elements="16" statements="8" conditionals="0" coveredstatements="7"/>
+            </class>
+            <line complexity="1" visibility="public" signature="getId() : Integer" num="19" count="2" type="method"/>
+            <line num="20" count="2" type="stmt"/>
+            <line complexity="1" visibility="public" signature="setId(Integer) : void" num="23" count="0" type="method"/>
+            <line num="24" count="0" type="stmt"/>
+            <line complexity="1" visibility="public" signature="getTitle() : String" num="27" count="1" type="method"/>
+            <line num="28" count="1" type="stmt"/>
+            <line complexity="1" visibility="public" signature="setTitle(String) : void" num="31" count="1" type="method"/>
+            <line num="32" count="1" type="stmt"/>
+            <line complexity="1" visibility="public" signature="getBody() : String" num="35" count="1" type="method"/>
+            <line num="36" count="1" type="stmt"/>
+            <line complexity="1" visibility="public" signature="setBody(String) : void" num="39" count="1" type="method"/>
+            <line num="40" count="1" type="stmt"/>
+            <line complexity="1" visibility="public" signature="getUserid() : Integer" num="43" count="1" type="method"/>
+            <line num="44" count="1" type="stmt"/>
+            <line complexity="1" visibility="public" signature="setUserid(Integer) : void" num="47" count="1" type="method"/>
+            <line num="48" count="1" type="stmt"/>
+         </file>
+         <file path="D:\Java\api-blog\api-rest-blog\src\main\java\com\api\blog\dto\PostUserDTO.java" name="PostUserDTO.java">
+            <metrics coveredelements="0" coveredconditionals="0" complexity="14" loc="84" coveredmethods="0" methods="14" elements="28" classes="1" ncloc="60" statements="14" conditionals="0" coveredstatements="0"/>
+            <class name="PostUserDTO">
+               <metrics coveredelements="0" coveredconditionals="0" complexity="14" coveredmethods="0" methods="14" elements="28" statements="14" conditionals="0" coveredstatements="0"/>
+            </class>
+            <line complexity="1" visibility="public" signature="getId() : Integer" num="29" count="0" type="method"/>
+            <line num="30" count="0" type="stmt"/>
+            <line complexity="1" visibility="public" signature="getBody() : String" num="33" count="0" type="method"/>
+            <line num="34" count="0" type="stmt"/>
+            <line complexity="1" visibility="public" signature="getTitle() : String" num="37" count="0" type="method"/>
+            <line num="38" count="0" type="stmt"/>
+            <line complexity="1" visibility="public" signature="getUserId() : Integer" num="41" count="0" type="method"/>
+            <line num="42" count="0" type="stmt"/>
+            <line complexity="1" visibility="public" signature="getUsername() : String" num="45" count="0" type="method"/>
+            <line num="46" count="0" type="stmt"/>
+            <line complexity="1" visibility="public" signature="getName() : String" num="49" count="0" type="method"/>
+            <line num="50" count="0" type="stmt"/>
+            <line complexity="1" visibility="public" signature="getEmail() : String" num="53" count="0" type="method"/>
+            <line num="54" count="0" type="stmt"/>
+            <line complexity="1" visibility="public" signature="setId(Integer) : void" num="57" count="0" type="method"/>
+            <line num="58" count="0" type="stmt"/>
+            <line complexity="1" visibility="public" signature="setBody(String) : void" num="61" count="0" type="method"/>
+            <line num="62" count="0" type="stmt"/>
+            <line complexity="1" visibility="public" signature="setTitle(String) : void" num="65" count="0" type="method"/>
+            <line num="66" count="0" type="stmt"/>
+            <line complexity="1" visibility="public" signature="setUserId(Integer) : void" num="69" count="0" type="method"/>
+            <line num="70" count="0" type="stmt"/>
+            <line complexity="1" visibility="public" signature="setUsername(String) : void" num="73" count="0" type="method"/>
+            <line num="74" count="0" type="stmt"/>
+            <line complexity="1" visibility="public" signature="setName(String) : void" num="77" count="0" type="method"/>
+            <line num="78" count="0" type="stmt"/>
+            <line complexity="1" visibility="public" signature="setEmail(String) : void" num="81" count="0" type="method"/>
+            <line num="82" count="0" type="stmt"/>
+         </file>
+         <file path="D:\Java\api-blog\api-rest-blog\src\main\java\com\api\blog\dto\UserPostsDTO.java" name="UserPostsDTO.java">
+            <metrics coveredelements="0" coveredconditionals="0" complexity="6" loc="65" coveredmethods="0" methods="6" elements="12" classes="1" ncloc="30" statements="6" conditionals="0" coveredstatements="0"/>
+            <class name="UserPostsDTO">
+               <metrics coveredelements="0" coveredconditionals="0" complexity="6" coveredmethods="0" methods="6" elements="12" statements="6" conditionals="0" coveredstatements="0"/>
+            </class>
+            <line complexity="1" visibility="public" signature="setId(Integer) : void" num="26" count="0" type="method"/>
+            <line num="27" count="0" type="stmt"/>
+            <line complexity="1" visibility="public" signature="setName(String) : void" num="30" count="0" type="method"/>
+            <line num="31" count="0" type="stmt"/>
+            <line complexity="1" visibility="public" signature="getUserPosts() : List&lt;Posts&gt;" num="34" count="0" type="method"/>
+            <line num="35" count="0" type="stmt"/>
+            <line complexity="1" visibility="public" signature="setUserPosts(List&lt;Posts&gt;) : void" num="38" count="0" type="method"/>
+            <line num="39" count="0" type="stmt"/>
+            <line complexity="1" visibility="public" signature="getId() : Integer" num="50" count="0" type="method"/>
+            <line num="51" count="0" type="stmt"/>
+            <line complexity="1" visibility="public" signature="getName() : String" num="54" count="0" type="method"/>
+            <line num="55" count="0" type="stmt"/>
+         </file>
+      </package>
+      <package name="com.api.blog">
+         <metrics coveredelements="31" complexity="11" loc="143" methods="7" classes="2" statements="20" coveredconditionals="6" coveredmethods="6" elements="35" ncloc="125" files="2" conditionals="8" coveredstatements="19"/>
+         <file path="D:\Java\api-blog\api-rest-blog\src\main\java\com\api\blog\ApiBlogApplication.java" name="ApiBlogApplication.java">
+            <metrics coveredelements="0" coveredconditionals="0" complexity="1" loc="52" coveredmethods="0" methods="1" elements="2" classes="1" ncloc="46" statements="1" conditionals="0" coveredstatements="0"/>
+            <class name="ApiBlogApplication">
+               <metrics coveredelements="0" coveredconditionals="0" complexity="1" coveredmethods="0" methods="1" elements="2" statements="1" conditionals="0" coveredstatements="0"/>
+            </class>
+            <line complexity="1" visibility="public" signature="main(String[]) : void" num="47" count="0" type="method"/>
+            <line num="48" count="0" type="stmt"/>
+         </file>
+         <file path="D:\Java\api-blog\api-rest-blog\src\main\java\com\api\blog\SwaggerConfig.java" name="SwaggerConfig.java">
+            <metrics coveredelements="31" coveredconditionals="6" complexity="10" loc="91" coveredmethods="6" methods="6" elements="33" classes="1" ncloc="79" statements="19" conditionals="8" coveredstatements="19"/>
+            <class name="SwaggerConfig">
+               <metrics coveredelements="31" coveredconditionals="6" complexity="10" coveredmethods="6" methods="6" elements="33" statements="19" conditionals="8" coveredstatements="19"/>
+            </class>
+            <line complexity="1" visibility="private" signature="apiKey() : ApiKey" num="25" count="2" type="method"/>
+            <line num="26" count="2" type="stmt"/>
+            <line complexity="1" visibility="private" signature="securityContext() : SecurityContext" num="29" count="2" type="method"/>
+            <line num="30" count="2" type="stmt"/>
+            <line complexity="1" visibility="private" signature="defaultAuth() : List&lt;SecurityReference&gt;" num="33" count="2" type="method"/>
+            <line num="34" count="2" type="stmt"/>
+            <line num="35" count="2" type="stmt"/>
+            <line num="36" count="2" type="stmt"/>
+            <line num="37" count="2" type="stmt"/>
+            <line complexity="1" visibility="public" signature="swaggerConfiguration() : Docket" num="41" count="2" type="method"/>
+            <line num="43" count="2" type="stmt"/>
+            <line complexity="3" visibility="public" signature="swaggerPersonApi12() : Docket" num="50" count="2" type="method"/>
+            <line num="52" count="2" type="stmt"/>
+            <line num="56" count="26" type="stmt"/>
+            <line falsecount="0" truecount="26" num="56" type="cond"/>
+            <line num="57" count="26" type="stmt"/>
+            <line num="58" count="6" type="stmt"/>
+            <line falsecount="4" truecount="2" num="58" type="cond"/>
+            <line num="59" count="2" type="stmt"/>
+            <line num="63" count="24" type="stmt"/>
+            <line complexity="3" visibility="public" signature="swaggerPersonApi13() : Docket" num="70" count="2" type="method"/>
+            <line num="72" count="2" type="stmt"/>
+            <line num="76" count="26" type="stmt"/>
+            <line falsecount="0" truecount="26" num="76" type="cond"/>
+            <line num="77" count="26" type="stmt"/>
+            <line num="78" count="6" type="stmt"/>
+            <line falsecount="4" truecount="2" num="78" type="cond"/>
+            <line num="79" count="2" type="stmt"/>
+            <line num="83" count="24" type="stmt"/>
+         </file>
+      </package>
+      <package name="com.api.blog.models">
+         <metrics coveredelements="76" complexity="41" loc="252" methods="41" classes="2" statements="41" coveredconditionals="0" coveredmethods="38" elements="82" ncloc="185" files="2" conditionals="0" coveredstatements="38"/>
+         <file path="D:\Java\api-blog\api-rest-blog\src\main\java\com\api\blog\models\Posts.java" name="Posts.java">
+            <metrics coveredelements="16" coveredconditionals="0" complexity="10" loc="65" coveredmethods="8" methods="10" elements="20" classes="1" ncloc="48" statements="10" conditionals="0" coveredstatements="8"/>
+            <class name="Posts">
+               <metrics coveredelements="16" coveredconditionals="0" complexity="10" coveredmethods="8" methods="10" elements="20" statements="10" conditionals="0" coveredstatements="8"/>
+            </class>
+            <line complexity="1" visibility="public" signature="getUserid() : Integer" num="33" count="18" type="method"/>
+            <line num="34" count="18" type="stmt"/>
+            <line complexity="1" visibility="public" signature="setUserid(Integer) : void" num="37" count="19" type="method"/>
+            <line num="38" count="19" type="stmt"/>
+            <line complexity="1" visibility="public" signature="getId() : Integer" num="48" count="22" type="method"/>
+            <line num="48" count="22" type="stmt"/>
+            <line complexity="1" visibility="public" signature="getTitle() : String" num="50" count="19" type="method"/>
+            <line num="50" count="19" type="stmt"/>
+            <line complexity="1" visibility="public" signature="setTitle(String) : void" num="51" count="19" type="method"/>
+            <line num="51" count="19" type="stmt"/>
+            <line complexity="1" visibility="public" signature="getBody() : String" num="53" count="18" type="method"/>
+            <line num="53" count="18" type="stmt"/>
+            <line complexity="1" visibility="public" signature="setBody(String) : void" num="54" count="19" type="method"/>
+            <line num="54" count="19" type="stmt"/>
+            <line complexity="1" visibility="public" signature="getUser() : User" num="56" count="0" type="method"/>
+            <line num="56" count="0" type="stmt"/>
+            <line complexity="1" visibility="public" signature="setId(Integer) : void" num="58" count="19" type="method"/>
+            <line num="59" count="19" type="stmt"/>
+            <line complexity="1" visibility="public" signature="setUser(User) : void" num="62" count="0" type="method"/>
+            <line num="63" count="0" type="stmt"/>
+         </file>
+         <file path="D:\Java\api-blog\api-rest-blog\src\main\java\com\api\blog\models\User.java" name="User.java">
+            <metrics coveredelements="60" coveredconditionals="0" complexity="31" loc="187" coveredmethods="30" methods="31" elements="62" classes="1" ncloc="137" statements="31" conditionals="0" coveredstatements="30"/>
+            <class name="User">
+               <metrics coveredelements="60" coveredconditionals="0" complexity="31" coveredmethods="30" methods="31" elements="62" statements="31" conditionals="0" coveredstatements="30"/>
+            </class>
+            <line complexity="1" visibility="public" signature="getUserPosts() : List&lt;Posts&gt;" num="66" count="1" type="method"/>
+            <line num="66" count="1" type="stmt"/>
+            <line complexity="1" visibility="public" signature="getCompanyBs() : String" num="68" count="1" type="method"/>
+            <line num="69" count="1" type="stmt"/>
+            <line complexity="1" visibility="public" signature="setCompanyBs(String) : void" num="72" count="1" type="method"/>
+            <line num="73" count="1" type="stmt"/>
+            <line complexity="1" visibility="public" signature="getCompanyCatchphrase() : String" num="76" count="1" type="method"/>
+            <line num="77" count="1" type="stmt"/>
+            <line complexity="1" visibility="public" signature="setCompanyCatchphrase(String) : void" num="80" count="1" type="method"/>
+            <line num="81" count="1" type="stmt"/>
+            <line complexity="1" visibility="public" signature="getCompanyName() : String" num="84" count="1" type="method"/>
+            <line num="85" count="1" type="stmt"/>
+            <line complexity="1" visibility="public" signature="setCompanyName(String) : void" num="88" count="1" type="method"/>
+            <line num="89" count="1" type="stmt"/>
+            <line complexity="1" visibility="public" signature="getWebsite() : String" num="92" count="1" type="method"/>
+            <line num="93" count="1" type="stmt"/>
+            <line complexity="1" visibility="public" signature="setWebsite(String) : void" num="96" count="1" type="method"/>
+            <line num="97" count="1" type="stmt"/>
+            <line complexity="1" visibility="public" signature="getPhone() : String" num="100" count="1" type="method"/>
+            <line num="101" count="1" type="stmt"/>
+            <line complexity="1" visibility="public" signature="setPhone(String) : void" num="104" count="1" type="method"/>
+            <line num="105" count="1" type="stmt"/>
+            <line complexity="1" visibility="public" signature="getAddressGeoLng() : BigDecimal" num="108" count="1" type="method"/>
+            <line num="109" count="1" type="stmt"/>
+            <line complexity="1" visibility="public" signature="setAddressGeoLng(BigDecimal) : void" num="112" count="1" type="method"/>
+            <line num="113" count="1" type="stmt"/>
+            <line complexity="1" visibility="public" signature="getAddressGeoLat() : BigDecimal" num="116" count="1" type="method"/>
+            <line num="117" count="1" type="stmt"/>
+            <line complexity="1" visibility="public" signature="setAddressGeoLat(BigDecimal) : void" num="120" count="1" type="method"/>
+            <line num="121" count="1" type="stmt"/>
+            <line complexity="1" visibility="public" signature="getAddressZipcode() : String" num="124" count="1" type="method"/>
+            <line num="125" count="1" type="stmt"/>
+            <line complexity="1" visibility="public" signature="setAddressZipcode(String) : void" num="128" count="1" type="method"/>
+            <line num="129" count="1" type="stmt"/>
+            <line complexity="1" visibility="public" signature="getAddressCity() : String" num="132" count="1" type="method"/>
+            <line num="133" count="1" type="stmt"/>
+            <line complexity="1" visibility="public" signature="setAddressCity(String) : void" num="136" count="1" type="method"/>
+            <line num="137" count="1" type="stmt"/>
+            <line complexity="1" visibility="public" signature="getAddressSuite() : String" num="140" count="1" type="method"/>
+            <line num="141" count="1" type="stmt"/>
+            <line complexity="1" visibility="public" signature="setAddressSuite(String) : void" num="144" count="1" type="method"/>
+            <line num="145" count="1" type="stmt"/>
+            <line complexity="1" visibility="public" signature="getAddressStreet() : String" num="148" count="1" type="method"/>
+            <line num="149" count="1" type="stmt"/>
+            <line complexity="1" visibility="public" signature="setAddressStreet(String) : void" num="152" count="1" type="method"/>
+            <line num="153" count="1" type="stmt"/>
+            <line complexity="1" visibility="public" signature="getEmail() : String" num="156" count="1" type="method"/>
+            <line num="157" count="1" type="stmt"/>
+            <line complexity="1" visibility="public" signature="setEmail(String) : void" num="160" count="1" type="method"/>
+            <line num="161" count="1" type="stmt"/>
+            <line complexity="1" visibility="public" signature="getUsername() : String" num="164" count="1" type="method"/>
+            <line num="165" count="1" type="stmt"/>
+            <line complexity="1" visibility="public" signature="setUsername(String) : void" num="168" count="1" type="method"/>
+            <line num="169" count="1" type="stmt"/>
+            <line complexity="1" visibility="public" signature="getName() : String" num="172" count="1" type="method"/>
+            <line num="173" count="1" type="stmt"/>
+            <line complexity="1" visibility="public" signature="setName(String) : void" num="176" count="1" type="method"/>
+            <line num="177" count="1" type="stmt"/>
+            <line complexity="1" visibility="public" signature="getId() : Integer" num="180" count="0" type="method"/>
+            <line num="181" count="0" type="stmt"/>
+            <line complexity="1" visibility="public" signature="setId(Integer) : void" num="184" count="1" type="method"/>
+            <line num="185" count="1" type="stmt"/>
+         </file>
+      </package>
+   </project>
+   <testproject name="api-rest-blog 1.0-SNAPSHOT" timestamp="1635941557160">
+      <metrics coveredelements="26" complexity="8" loc="143" methods="8" classes="3" statements="18" packages="2" coveredconditionals="0" coveredmethods="8" elements="26" ncloc="101" files="3" conditionals="0" coveredstatements="18"/>
+      <package name="com.api.blog">
+         <metrics coveredelements="1" complexity="1" loc="13" methods="1" classes="1" statements="0" coveredconditionals="0" coveredmethods="1" elements="1" ncloc="9" files="1" conditionals="0" coveredstatements="0"/>
+         <file path="D:\Java\api-blog\api-rest-blog\src\test\java\com\api\blog\ApiBlogTests.java" name="ApiBlogTests.java">
+            <metrics coveredelements="1" coveredconditionals="0" complexity="1" loc="13" coveredmethods="1" methods="1" elements="1" classes="1" ncloc="9" statements="0" conditionals="0" coveredstatements="0"/>
+            <class name="ApiBlogTests">
+               <metrics coveredelements="1" complexity="1" methods="1" testruns="1" statements="0" coveredconditionals="0" coveredmethods="1" elements="1" testfailures="0" testduration="0.004" conditionals="0" coveredstatements="0" testpasses="1"/>
+            </class>
+            <line complexity="1" visibility="package" signature="contextLoads() : void" num="9" testsuccess="true" count="1" testduration="0.004" type="method"/>
+         </file>
+      </package>
+      <package name="com.api.blog.models">
+         <metrics coveredelements="25" complexity="7" loc="130" methods="7" classes="2" statements="18" coveredconditionals="0" coveredmethods="7" elements="25" ncloc="92" files="2" conditionals="0" coveredstatements="18"/>
+         <file path="D:\Java\api-blog\api-rest-blog\src\test\java\com\api\blog\models\PostsTest.java" name="PostsTest.java">
+            <metrics coveredelements="20" coveredconditionals="0" complexity="5" loc="78" coveredmethods="5" methods="5" elements="20" classes="1" ncloc="55" statements="15" conditionals="0" coveredstatements="15"/>
+            <class name="PostsTest">
+               <metrics coveredelements="20" complexity="5" methods="5" testruns="5" statements="15" coveredconditionals="0" coveredmethods="5" elements="20" testfailures="0" testduration="0.263" conditionals="0" coveredstatements="15" testpasses="5"/>
+            </class>
+            <line complexity="1" visibility="public" signature="getAllPosts() : void" num="34" testsuccess="true" count="1" testduration="0.115" type="method"/>
+            <line num="36" count="1" type="stmt"/>
+            <line num="37" count="1" type="stmt"/>
+            <line complexity="1" visibility="public" signature="getPostsPage() : void" num="40" testsuccess="true" count="1" testduration="0.031" type="method"/>
+            <line num="42" count="1" type="stmt"/>
+            <line num="43" count="1" type="stmt"/>
+            <line complexity="1" visibility="public" signature="createPost() : void" num="46" testsuccess="true" count="1" testduration="0.057" type="method"/>
+            <line num="49" count="1" type="stmt"/>
+            <line num="51" count="1" type="stmt"/>
+            <line num="52" count="1" type="stmt"/>
+            <line num="53" count="1" type="stmt"/>
+            <line num="55" count="1" type="stmt"/>
+            <line num="57" count="1" type="stmt"/>
+            <line num="59" count="1" type="stmt"/>
+            <line complexity="1" visibility="public" signature="getPosts() : void" num="62" testsuccess="true" count="1" testduration="0.019" type="method"/>
+            <line num="65" count="1" type="stmt"/>
+            <line num="67" count="1" type="stmt"/>
+            <line complexity="1" visibility="public" signature="getPostsByTitle() : void" num="70" testsuccess="true" count="1" testduration="0.041" type="method"/>
+            <line num="73" count="1" type="stmt"/>
+            <line num="75" count="1" type="stmt"/>
+         </file>
+         <file path="D:\Java\api-blog\api-rest-blog\src\test\java\com\api\blog\models\UserTest.java" name="UserTest.java">
+            <metrics coveredelements="5" coveredconditionals="0" complexity="2" loc="52" coveredmethods="2" methods="2" elements="5" classes="1" ncloc="37" statements="3" conditionals="0" coveredstatements="3"/>
+            <class name="UserTest">
+               <metrics coveredelements="5" complexity="2" methods="2" testruns="2" statements="3" coveredconditionals="0" coveredmethods="2" elements="5" testfailures="0" testduration="0.265" conditionals="0" coveredstatements="3" testpasses="2"/>
+            </class>
+            <line complexity="1" visibility="public" signature="getUsers() : void" num="39" testsuccess="true" count="1" testduration="0.007" type="method"/>
+            <line num="41" count="1" type="stmt"/>
+            <line num="43" count="1" type="stmt"/>
+            <line complexity="1" visibility="public" signature="getOneUser() : void" num="47" testsuccess="true" count="1" testduration="0.258" type="method"/>
+            <line num="50" count="1" type="stmt"/>
+         </file>
+      </package>
+   </testproject>
+</coverage>
